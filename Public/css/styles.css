@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "roboto";
+    font-size: 10 px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.logo {
+    width: 100%;
+ 
+}
+
+.search {
+    width: 50%;
+    margin: auto;
+    padding:0;
+}
+
+.search input[type=text] {
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    width: 70%;
+    margin-top: 10px;
+
+}
+
+.search button {
+    background-color: white;
+    color: #666;
+    height: 25px;
+    border: solid 2px white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%
+}
+
+.navbar {
+    display: none;
+    font-size: 13px;
+}
+
+ul.list {
+
+    padding: 0;
+}
+
+.list {
+    list-style-type: none;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.mainsection {
+    margin: auto;
+    width: 90%;
+    margin-top: 330px;
+}
+
+.cuotas {
+
+    text-align: center;
+    width: 100%;
+}
+
+.burger-menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    background-color: #1746B3;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    border-radius: 10%;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.visit-offer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.allproducts {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.completeproduct {
+    border-top: solid #ebebeb 1px;
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 350ms;
+}
+
+.completeproduct:hover {
+    box-shadow: 0 0 5px rgb(100, 100, 100);
+}
+
+.completeproduct:hover .productname {
+    display: block;
+}
+
+.detalleproducto {
+
+    margin: 0%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.price {
+    font-size: 17px;
+    width: 40%;
+    margin: 0%;
+    text-align: left;
+}
+
+.discount {
+    font-size: 15px;
+    color: #39b54a;
+    width: 60%;
+    margin: 0%;
+    text-align: center;
+}
+
+.productname {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5%;
+    display: none;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+.productphoto {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-bottom: solid #ebebeb 1px;
+}
+
+.truck {
+    color: #39b54a;
+    background: #fff;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border: solid 1.5px #39b54a;
+    border-radius: 50%;
+    margin-top: -20px;
+    right: -30px;
+    order: 2;
+    transition: 550ms;
+}
+
+.icon {
+    text-align: center;
+    color: #1746B3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: 350ms;
+}
+
+.icon:hover {
+    color:#507adc
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+
+.footerp {
+    font-weight: 500;
+    margin-bottom: 30p;
+    margin: 3%;
+    justify-content: center;
+    height: 80%;
+}
+
+
+.copyr {
+    font-size: 12px;
+    color: #666;
+    width: 50%;
+    margin: auto;
+}
+
+.registerform {
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+form button {
+
+    color: whitesmoke;
+    background-color: rgb(100, 100, 100);
+    width: 50%;
+    float: center;
+}
+
+form button:hover {
+
+    color: whitesmoke;
+    background-color: #002aa0;
+
+}
+
+.intereses {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+@media (min-width: 481px) {
+
+    .logo {
+        width: 100%;
+    }
+
+    .mainsection {
+        width: 90%;
+        margin: auto;
+        margin-top: 400px;
+    }
+
+    .completeproduct:hover .productname {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    li {
+        padding-left: 10px;
+    }
+
+    .banner {
+        height: 50%;
+    }
+
+    .completeproduct {
+        width: 45%;
+    }
+
+    .detalleproducto {
+        align-items: baseline;
+    }
+
+    .completeproduct:hover .truck {
+        padding: 3px;
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+        margin-top: -15px;
+        transform: rotatez(-90deg);
+    }
+
+    .price {
+        font-size: 15px;
+        width: 50%;
+        text-align: left;
+    }
+
+    .discount {
+        width: 50%;
+        font-size: 13px;
+        justify-content: left;
+    }
+
+    .productname {
+        font-size: 15px;
+    }
+
+    .navbar {
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    .footerpall {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        ;
+    }
+
+    .footerp {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+.copy {
+    color: rgb(146, 143, 143);
+    font-size: 12px;
+}
+
+@media (min-width: 770px) {
+
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .mainsection {
+        width: 100%;
+        margin: auto;
+        margin-top: 55%;
+    }
+
+    .completeproduct {
+        width: 22%;
+        padding-bottom: 10px;
+    }
+
+    .productname {
+        font-size: 13px;
+        margin-right: -12px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    .discount {
+        font-size: 10px;
+    }
+
+    .footerp {
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .registerform {
+        width: 40%;
+    }
+}
