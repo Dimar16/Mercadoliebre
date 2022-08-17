@@ -27,7 +27,6 @@ header {
 
 .logo {
     width: 100%;
- 
 }
 
 .search {
@@ -362,7 +361,6 @@ form button:hover {
 }
 
 @media (min-width: 770px) {
-
 
     .navbar {
         display: flex;
