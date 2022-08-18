@@ -338,7 +338,17 @@ form button:hover {
         display: block;
         display: flex;
         flex-wrap: wrap;
-        justify-content:space-evenly;
+        justify-content:space-between;
+    }
+
+    .list{
+
+        margin-left: 1px;
+        width: 40%;
+    }
+
+    .listitem {
+        margin: auto;
     }
 
     .footerpall {
@@ -369,13 +379,17 @@ form button:hover {
     }
 
     .banner {
-        height: 50%;
+        height: 40%;
+    }
+
+    .listitem {
+        font-size: 16px;
     }
 
     .mainsection {
         width: 100%;
         margin: auto;
-        margin-top: 400px;
+        margin-top: 411px;
     }
 
     .completeproduct {
