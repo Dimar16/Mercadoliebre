@@ -22,6 +22,7 @@ header {
 .header1 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: auto;
 }
 
@@ -66,12 +67,10 @@ ul.list {
 
 .list {
     list-style-type: none;
-    margin-left: 0%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
     width: 50%;
+    color: black;
     
 }
 
@@ -283,7 +282,7 @@ form button:hover {
     .mainsection {
         width: 90%;
         margin: auto;
-        margin-top: 400px;
+        margin-top: 350px;
     }
 
     .completeproduct:hover .productname {
@@ -294,8 +293,8 @@ form button:hover {
         display: none;
     }
 
-    li {
-        padding-left: 10px;
+    .listitem {
+        font-size: 12 px;
     }
 
     .banner {
@@ -339,7 +338,7 @@ form button:hover {
         display: block;
         display: flex;
         flex-wrap: wrap;
-        justify-content: right;
+        justify-content:space-evenly;
     }
 
     .footerpall {
@@ -365,14 +364,18 @@ form button:hover {
     .navbar {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         font-size: 14px;
+        color: black;
+    }
+
+    .banner {
+        height: 50%;
     }
 
     .mainsection {
         width: 100%;
         margin: auto;
-        margin-top: 55%;
+        margin-top: 400px;
     }
 
     .completeproduct {
